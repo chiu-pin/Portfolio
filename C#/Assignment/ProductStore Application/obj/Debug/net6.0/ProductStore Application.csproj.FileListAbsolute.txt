@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\ProductStore Application\bin\Debug\net6.0\ProductStore Application.exe
+C:\Users\user\Desktop\ProductStore Application\bin\Debug\net6.0\ProductStore Application.deps.json
+C:\Users\user\Desktop\ProductStore Application\bin\Debug\net6.0\ProductStore Application.runtimeconfig.json
+C:\Users\user\Desktop\ProductStore Application\bin\Debug\net6.0\ProductStore Application.dll
+C:\Users\user\Desktop\ProductStore Application\bin\Debug\net6.0\ProductStore Application.pdb
+C:\Users\user\Desktop\ProductStore Application\obj\Debug\net6.0\ProductStore Application.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ProductStore Application\obj\Debug\net6.0\ProductStore Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ProductStore Application\obj\Debug\net6.0\ProductStore Application.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ProductStore Application\obj\Debug\net6.0\ProductStore Application.AssemblyInfo.cs
+C:\Users\user\Desktop\ProductStore Application\obj\Debug\net6.0\ProductStore Application.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ProductStore Application\obj\Debug\net6.0\ProductStore Application.dll
+C:\Users\user\Desktop\ProductStore Application\obj\Debug\net6.0\refint\ProductStore Application.dll
+C:\Users\user\Desktop\ProductStore Application\obj\Debug\net6.0\ProductStore Application.pdb
+C:\Users\user\Desktop\ProductStore Application\obj\Debug\net6.0\ProductStore Application.genruntimeconfig.cache
+C:\Users\user\Desktop\ProductStore Application\obj\Debug\net6.0\ref\ProductStore Application.dll

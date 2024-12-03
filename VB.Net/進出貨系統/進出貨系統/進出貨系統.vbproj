@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A733BA36-5037-4954-9BD2-408D17591349}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>進出貨系統.My.MyApplication</StartupObject>
+    <RootNamespace>進出貨系統</RootNamespace>
+    <AssemblyName>進出貨系統</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>進出貨系統.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>進出貨系統.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>allrb-rq3g6-001.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dbDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbDataSet.vb">
+      <DependentUpon>dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formsum.Designer.vb">
+      <DependentUpon>Formsum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formsum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原物料\Formaddproduct.Designer.vb">
+      <DependentUpon>Formaddproduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="原物料\Formaddproduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Forminventorylist.Designer.vb">
+      <DependentUpon>Forminventorylist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Forminventorylist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Forminventorysearch.Designer.vb">
+      <DependentUpon>Forminventorysearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Forminventorysearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原物料\Formproductlist.Designer.vb">
+      <DependentUpon>Formproductlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="原物料\Formproductlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="新增\Formselectnewin.Designer.vb">
+      <DependentUpon>Formselectnewin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="新增\Formselectnewin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="新增\Formnewstockin.Designer.vb">
+      <DependentUpon>Formnewstockin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="新增\Formnewstockin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Formorder.Designer.vb">
+      <DependentUpon>Formorder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Formorder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Formstnedit.Designer.vb">
+      <DependentUpon>Formstnedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Formstnedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Formstockin.Designer.vb">
+      <DependentUpon>Formstockin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Formstockin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Formstockout.Designer.vb">
+      <DependentUpon>Formstockout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Formstockout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原物料\frmEditProduct.Designer.vb">
+      <DependentUpon>frmEditProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="原物料\frmEditProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理\frmUser.Designer.vb">
+      <DependentUpon>frmUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="管理\frmUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="新增\insertcompany.Designer.vb">
+      <DependentUpon>insertcompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="新增\insertcompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.Designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\config.vb" />
+    <Compile Include="My Project\crud.vb" />
+    <Compile Include="My Project\publicfunction.vb" />
+    <Compile Include="My Project\publicvariable.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="My Project\Settings.vb" />
+    <Compile Include="昌岱庫存清單\Formstoedit.Designer.vb">
+      <DependentUpon>Formstoedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="昌岱庫存清單\Formstoedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formsum.resx">
+      <DependentUpon>Formsum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原物料\Formaddproduct.resx">
+      <DependentUpon>Formaddproduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="昌岱庫存清單\Forminventorylist.resx">
+      <DependentUpon>Forminventorylist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="昌岱庫存清單\Forminventorysearch.resx">
+      <DependentUpon>Forminventorysearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原物料\Formproductlist.resx">
+      <DependentUpon>Formproductlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="新增\Formselectnewin.resx">
+      <DependentUpon>Formselectnewin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="新增\Formnewstockin.resx">
+      <DependentUpon>Formnewstockin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="昌岱庫存清單\Formorder.resx">
+      <DependentUpon>Formorder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="昌岱庫存清單\Formstnedit.resx">
+      <DependentUpon>Formstnedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="昌岱庫存清單\Formstockin.resx">
+      <DependentUpon>Formstockin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="昌岱庫存清單\Formstockout.resx">
+      <DependentUpon>Formstockout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原物料\frmEditProduct.resx">
+      <DependentUpon>frmEditProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理\frmUser.resx">
+      <DependentUpon>frmUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="新增\insertcompany.resx">
+      <DependentUpon>insertcompany.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="昌岱庫存清單\Formstoedit.resx">
+      <DependentUpon>Formstoedit.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbDataSet.xsc">
+      <DependentUpon>dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbDataSet.xss">
+      <DependentUpon>dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="allrb-rq3g6-001.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

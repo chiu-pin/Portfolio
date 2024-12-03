@@ -1,0 +1,47 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.about-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-content h1 {
+  text-align: center; /* 使标题文字居中 */
+}
+
+.about-image img {
+  max-width: 50%;
+  height: 50%;
+  border-radius: 50%; /* 如果您想要图片是圆形的 */
+}
+
+/* 为小屏幕做适配 */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+  }
+  .about-content,
+  .about-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+body {
+  position: relative; /* 添加这个属性 */
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;   
+}

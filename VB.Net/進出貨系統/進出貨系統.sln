@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "進出貨系統", "進出貨系統\進出貨系統.vbproj", "{A733BA36-5037-4954-9BD2-408D17591349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{2BD9DE05-A63B-45AD-B7E0-8797CE674425}"
+	ProjectSection(SolutionItems) = preProject
+		進出貨系統\include\config.vb = 進出貨系統\include\config.vb
+		進出貨系統\include\crud.vb = 進出貨系統\include\crud.vb
+		進出貨系統\include\publicfunction.vb = 進出貨系統\include\publicfunction.vb
+		進出貨系統\include\publicvariable.vb = 進出貨系統\include\publicvariable.vb
+		進出貨系統\include\Settings.vb = 進出貨系統\include\Settings.vb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56BAD44F-78D3-4E97-8AB6-2ADBEBF12050}"
+	ProjectSection(SolutionItems) = preProject
+		進出貨系統\bin\螢幕擷取畫面 2021-08-06 112133.png = 進出貨系統\bin\螢幕擷取畫面 2021-08-06 112133.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A733BA36-5037-4954-9BD2-408D17591349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A733BA36-5037-4954-9BD2-408D17591349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A733BA36-5037-4954-9BD2-408D17591349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A733BA36-5037-4954-9BD2-408D17591349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABA346D9-87FA-451E-94F4-1528C3AF1E45}
+	EndGlobalSection
+EndGlobal

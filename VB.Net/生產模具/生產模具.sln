@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "生產模具", "生產模具\生產模具.vbproj", "{A6D6FBED-D87E-44BD-B264-A37AEF0E0B21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{02F824F5-C04F-4300-8DDC-83CDFC8BCF1C}"
+	ProjectSection(SolutionItems) = preProject
+		生產模具\My Project\config.vb = 生產模具\My Project\config.vb
+		生產模具\My Project\crud.vb = 生產模具\My Project\crud.vb
+		生產模具\My Project\publicfunction.vb = 生產模具\My Project\publicfunction.vb
+		生產模具\My Project\publicvariable.vb = 生產模具\My Project\publicvariable.vb
+		生產模具\My Project\Settings.vb = 生產模具\My Project\Settings.vb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6D6FBED-D87E-44BD-B264-A37AEF0E0B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D6FBED-D87E-44BD-B264-A37AEF0E0B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D6FBED-D87E-44BD-B264-A37AEF0E0B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D6FBED-D87E-44BD-B264-A37AEF0E0B21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAD51862-C137-4423-8EAC-3160497D121A}
+	EndGlobalSection
+EndGlobal
